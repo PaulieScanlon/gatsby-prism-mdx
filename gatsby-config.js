@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -9,7 +10,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
-        remarkPlugins: [require('remark-prism')]
+        remarkPlugins: [[require('remark-prism'), { transformInlineCode: true }]]
       }
     }
   ]

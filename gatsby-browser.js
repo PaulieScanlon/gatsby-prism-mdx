@@ -1,6 +1,2 @@
-import React from 'react';
-import RootElement from './src/components/root-element';
-
-export const wrapRootElement = ({ element }) => {
-  return <RootElement>{element}</RootElement>;
-};
+import './src/styles/global.css';
+import './src/styles/prism-shades-of-purple.css';

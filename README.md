@@ -2,6 +2,7 @@
 
 Example using Prism / MDX with Gatsby
 
-## Prism Themes
+## Helpful Links
 
-Prism CSS from [https://github.com/PrismJS/prism-themes](https://github.com/PrismJS/prism-themes)
+- remark-prism: [https://github.com/sergioramos/remark-prism](https://github.com/sergioramos/remark-prism)
+- prism-themes: [https://github.com/PrismJS/prism-themes](https://github.com/PrismJS/prism-themes)

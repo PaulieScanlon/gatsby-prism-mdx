@@ -10,9 +10,11 @@ const Page = ({
   }
 }) => {
   return (
-    <MDXProvider>
-      <MDXRenderer>{body}</MDXRenderer>
-    </MDXProvider>
+    <main className="prose prose-lg mt-16 mx-auto">
+      <MDXProvider>
+        <MDXRenderer>{body}</MDXRenderer>
+      </MDXProvider>
+    </main>
   );
 };
 
